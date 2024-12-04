@@ -235,6 +235,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizonalInput: 0
   speed: 10
+  xRange: 15
 --- !u!1 &425805626
 GameObject:
   m_ObjectHideFlags: 0

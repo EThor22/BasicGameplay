@@ -188,6 +188,8 @@ GameObject:
   - component: {fileID: 854169011856802155}
   - component: {fileID: 5047356126657931327}
   - component: {fileID: 143952062192827409}
+  - component: {fileID: 4508631180684426103}
+  - component: {fileID: 1539580578212633295}
   m_Layer: 0
   m_Name: Animal_Fox_02
   m_TagString: Untagged
@@ -267,6 +269,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c0ef517e3ff80141b30e31b65c5cb77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &4508631180684426103
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2637868113954101745}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08077424, y: 0.20665684, z: 0.3164877}
+  m_Center: {x: 0.000011706353, y: 0.10452521, z: 0.013982582}
+--- !u!114 &1539580578212633295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2637868113954101745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d67d347e671f3042b129f134352040b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2649928224213577395
@@ -543,6 +578,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1042611988182913521}
   - component: {fileID: 7832964544053378295}
+  - component: {fileID: 2809497294604856074}
   m_Layer: 0
   m_Name: SM_Fox_02
   m_TagString: Untagged
@@ -621,6 +657,27 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.000000059604645, y: -0.029301882, z: 0.073896945}
     m_Extent: {x: 0.040517867, y: 0.104077205, z: 0.1580456}
   m_DirtyAABB: 0
+--- !u!65 &2809497294604856074
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4966425092583275466}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08103573, y: 0.20815443, z: 0.3160912}
+  m_Center: {x: -0.000000059604645, y: -0.029301867, z: 0.073896945}
 --- !u!1 &5213219721504366956
 GameObject:
   m_ObjectHideFlags: 0
